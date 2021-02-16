@@ -1,5 +1,8 @@
 # DesignPatterns
+Design patterns are extremely useful for helping you break down complex systems into components / Reuseable solution to common problems.
 
+GANG OF FOUR : -------------------------
+Design Patterns: Elements of Reusable Object-Oriented Software, published in 1994 and authored by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, collectively referred to as the Gang of Four (GoF)
 
 1-Singleton Pattern
 
