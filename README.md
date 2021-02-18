@@ -1,4 +1,4 @@
-# DesignPatterns
+# Design Patterns
 Design patterns are extremely useful for helping you break down complex systems into components / Reuseable solution to common problems.
 
 GANG OF FOUR : ---------------------------------------------------------------------------
@@ -40,7 +40,7 @@ Problem in this practice is we have to set values of all the attributes everytim
 Builder Function :
 it is responsible for creating burger object which is used for customized values and set default values
 
-4- Prototype Patten ---------------------------------------------------------------------------
+4- Prototype Pattern ---------------------------------------------------------------------------
 
 The prototype pattern creates new objects by copying an existing object, known as the prototype.
 
