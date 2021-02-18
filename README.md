@@ -27,3 +27,23 @@ What makes this pattern really useful is that each class is in charge of its imp
 Encapsulation of concrete types which are bound by a common interface. In this case such knowledge would belong to one type, a factory. Factory’s consists of method set (static or not), which returns instances of the common interface type and has meaningful names so we know which one must be called for a specific purpose.
 
 Our factory hides the need to know the type of object created because we will use our interface methods when we want to do anything with the created object. The added benefit of doing this is that we can add, change, or remove concrete objects from our factory without changing our client code!
+
+3- Builder Pattern ---------------------------------------------------------------------------
+
+Builder Pattern provides intermediate layer for the object creation
+we can modify all the properties of an object with the help of the method provided inside builder layer
+and for the properties we dont wanna change will pick default configuration from builder class
+for the object creation we always rely on the build object method of the builder class
+
+Problem in this practice is we have to set values of all the attributes everytime we make burger and all attributes remain in memory
+ 
+Builder Function :
+it is responsible for creating burger object which is used for customized values and set default values
+
+4- Prototype Patten ---------------------------------------------------------------------------
+
+The prototype pattern creates new objects by copying an existing object, known as the prototype.
+
+it is useful when you have a very basic configuration for an object and you'd like to give (clone) those predefined values to another one.
+
+This approach has some benefits, one is for example that you don't have to subclass, but you can configure clones individually. This also means that you can remove a bunch of boilerplate (configuration) code if you are going to use prototypes.
