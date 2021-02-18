@@ -4,7 +4,7 @@ Design patterns are extremely useful for helping you break down complex systems 
 GANG OF FOUR : ---------------------------------------------------------------------------
 Design Patterns: Elements of Reusable Object-Oriented Software, published in 1994 and authored by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, collectively referred to as the Gang of Four (GoF)
 
-## 1- Singleton Pattern ---------------------------------------------------------------------------
+## 1- Singleton Pattern --------------------------
 
 The Singleton design pattern ensures that only one instance exists for a given class and that there’s a global access point to that instance. It usually uses lazy loading to create the single instance when it’s needed the first time.
 
@@ -18,7 +18,7 @@ Singleton are create ways to organize your code that needs to initialize only on
 
 To ensure there is only one instance of your singleton, you must make it impossible for anyone else to make an instance. Swift allows you to do this by marking the initializers as private. You can then add a static property for the shared instance, which is initialized inside the class.
 
-## 2- # Factory Pattern ---------------------------------------------------------------------------
+## 2- # Factory Pattern --------------------------
 
 The factory pattern separates the implementation details of creating objects from the common interface that allows users to generically use the object.
 
@@ -28,7 +28,7 @@ Encapsulation of concrete types which are bound by a common interface. In this c
 
 Our factory hides the need to know the type of object created because we will use our interface methods when we want to do anything with the created object. The added benefit of doing this is that we can add, change, or remove concrete objects from our factory without changing our client code!
 
-## 3- Builder Pattern ---------------------------------------------------------------------------
+## 3- Builder Pattern --------------------------
 
 Builder Pattern provides intermediate layer for the object creation
 we can modify all the properties of an object with the help of the method provided inside builder layer
@@ -40,7 +40,7 @@ Problem in this practice is we have to set values of all the attributes everytim
 Builder Function :
 it is responsible for creating burger object which is used for customized values and set default values
 
-## 4- Prototype Pattern ---------------------------------------------------------------------------
+## 4- Prototype Pattern --------------------------
 
 The prototype pattern creates new objects by copying an existing object, known as the prototype.
 
